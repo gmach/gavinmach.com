@@ -1,0 +1,5 @@
+yarn build
+cp -a out/. ../gmach.github.io/
+cd ../gmach.github.io/
+git1
+

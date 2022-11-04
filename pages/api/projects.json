@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Grolly",
+    "path": "/project/grolly",
+    "icon": "react_icon.svg",
+    "image": "/grolly.png",
+    "description": "A grocery prices comparison for Woolworths and Coles",
+    "tags": ["react", "react-router", "mongodb", "elastic-search", "redux",  "node"],
+    "source_code": "https://github.com/gmach/groceryhawker-react",
+    "demo": "http://grolly.com.au"
+  },
+  {
+    "id": 2,
+    "name": "Telstra",
+    "path": "/project/telstra",
+    "icon": "js_icon.svg",
+    "image": "/telstra_myAccount.png",
+    "description": "Various Telstra consumer facing websites",
+    "tags": ["javascript", "react", "angular", "java"],
+    "demo": "http://gmach.github.io/apex/PlanetRed_RedSource.html"
+  },
+  {
+    "id": 2,
+    "name": "Vodafone",
+    "path": "/project/vodafone",
+    "icon": "vscode_icon.svg",
+    "image": "/redsource.jpg",
+    "description": "Vofafone Intranet apps for call centre agents",
+    "tags": ["javascript", "angular", "salesforce"],
+    "demo": "http://gmach.github.io/apex/PlanetRed_RedSource.html"
+  },
+  {
+    "id": 2,
+    "name": "Australian Broadcasting Corporation",
+    "path": "/project/abc",
+    "icon": "css_icon.svg",
+    "image": "/abc_spashplaylists.jpg",
+    "description": "ABC Splash childrens educational website",
+    "tags": ["java", "javascript"],
+    "demo": "http://gmach.github.io/apex/PlanetRed_RedSource.html"
+  },  
+  {
+    "id": 5,
+    "name": "Trading Alerts",
+    "path": "/project/tradingalerts",
+    "icon": "html_icon.svg", 
+    "image": "/tradingalerts.png",
+    "description": "Various tools to alert of trading signals in DeFi and TradFi markets",
+    "tags": ["solidity", "web3", "node", "mongodb",  "python"],
+    "source_code": "https://github.com/itsr/gavinmach.com",
+    "demo": "http://gavinmach.com.vercel.app/"
+  }
+
+]

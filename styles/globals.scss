@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tags */
+.react {
+  border: 0.1rem solid rgb(97, 218, 251);
+}
+.react:hover {
+  background: rgba(97, 218, 251, 0.25);
+}
+
+.node {
+  border: 0.1rem solid rgb(131, 205, 41);
+}
+.node:hover {
+  background: rgba(131, 205, 41, 0.25);
+}
+
+.react-router {
+  border: 0.1rem solid rgb(199, 225, 139);
+}
+.react-router:hover {
+  background: rgba(67, 153, 52, 0.25);
+}
+
+.elastic-search {
+  border: 0.1rem solid rgb(199, 225, 139);
+}
+.elastic-search:hover {
+  background: rgba(67, 153, 52, 0.25);
+}
+
+.mongodb {
+  border: 0.1rem solid rgb(67, 153, 52);
+}
+.mongodb:hover {
+  background: rgba(67, 153, 52, 0.25);
+}
+
+.angular {
+  border: 0.1rem solid rgb(67, 153, 52);
+}
+.angular:hover {
+  background: rgba(67, 153, 52, 0.25);
+}
+.python {
+  border: 0.1rem solid rgb(203, 150, 64);
+} 
+.python:hover {
+  background: rgba(67, 153, 52, 0.25);
+}
+.java {
+  border: 0.1rem solid rgb(203, 64, 69);
+} 
+.java:hover {
+  background: rgba(67, 153, 52, 0.25);
+}
+.solidity {
+  border: 0.1rem solid rgb(189, 203, 64);
+} 
+.solidity:hover {
+  background: rgba(67, 153, 52, 0.25);
+}
+.web3 {
+  border: 0.1rem solid rgb(144, 67, 9);
+} 
+.web3:hover {
+  background: rgba(67, 153, 52, 0.25);
+}
+.javascript {
+  border: 0.1rem solid rgb(64, 173, 203);
+}
+.javascript:hover {
+  background: rgba(67, 153, 52, 0.25);
+}
+.salesforce {
+  border: 0.1rem solid rgb(153, 52, 134);
+}
+.salesforce:hover {
+  background: rgba(67, 153, 52, 0.25);
+}
+
+.redux {
+  border: 0.1rem solid rgb(118, 74, 188);
+}
+.redux:hover {
+  background: rgba(118, 74, 188, 0.25);
+}
+
+.razorpay {
+  border: 0.1rem solid rgb(82, 143, 240);
+}
+.razorpay:hover {
+  background: rgba(82, 143, 240, 0.25);
+}
+
+.material-ui {
+  border: 0.1rem solid rgb(25, 118, 210);
+}
+.material-ui:hover {
+  background: rgba(25, 118, 210, 0.25);
+}
+
+.bulma {
+  border: 0.1rem solid rgb(0, 209, 178);
+}
+.bulma:hover {
+  background: rgb(0, 209, 178, 0.25);
+}
+
+.next {
+  border: 2px solid rgb(0, 112, 243);
+}
+.next:hover {
+  background: rgba(0, 112, 243, 0.25);
+}
+
+.tailwind {
+  border: 2px solid rgb(6, 182, 212);
+}
+.tailwind:hover {
+  background: rgba(6, 182, 212, 0.25);
+}
+
+.react-query {
+  border: 2px solid rgb(255, 65, 84);
+}
+.react-query:hover {
+  background: rgba(255, 65, 84, 0.25);
+}
+
+.css-modules {
+  border: 2px solid rgb(21, 114, 182);
+}
+.css-modules:hover {
+  background: rgba(21, 114, 182, 0.25);
+}
+
+h3 {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 20px 0;
+  font-size: 1.5rem;
+}
+img {
+  border-radius: 10px;
+}
+main {
+  border-color: rgb(56 56 56);
+  border-width: 3px;
+  border-radius: 0.5rem;
+  border-style: solid;
+}
+.mainheading {
+  margin: 20px 0;
+}
+.subheading {
+  /* text-decoration: underline; */
+  font-family: Verdana;
+  color: white;
+
+}
+p {
+  margin: 20px 0;
+  color: white;
+  color: #FFFF82;
+
+}
+figure img {
+  max-width: 75%;
+}
+.projectimagewrap {
+  margin: 20px 0;
+  display: flex;
+  flex-flow: row wrap;  
+  width: 100%;
+  justify-content: space-evenly;
+  img {
+    // max-width: 500px;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .projectimagewrap_left {
+    flex: 50%;
+  }
+  .projectimagewrap_right {
+    flex: 50%;
+  }
+
+  .cardimage {
+    max-width: 70%;
+  }
+}
+
+li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.skill {
+  cursor: pointer;
+  opacity: 0.75;
+  font-style: normal;
+  &:hover {
+    opacity: 1;
+  }
+}
+a:visited {
+  color: white;
+}
+
+
+
+.star {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background-color: white;
+}
+
+/* Set the animation, color, size and hide the text */
+.intro {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    z-index: 1;
+    animation: intro 6s ease-out 1s;
+    color: rgb(75, 213, 238);
+    font-weight: 400;
+    font-size: 1.5rem;
+    opacity: 0;
+}
+
+@keyframes intro {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Set the animation & hide the logo */
+.logo {    
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    z-index: 1;
+    margin: auto;
+    animation: logo 9s ease-out 9s;
+    opacity: 0;
+}
+
+.logo svg {
+    width: inherit;
+}
+
+/* Scale the logo down and maintain it centered */
+@keyframes logo {
+    0% {
+        width: 18em;        
+        transform: scale(2.75);
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+        width: 18em;      
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.1);
+        width: 18em;
+    }
+}
+
+/* Set the font, lean the board, position it */
+#board {
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  transform: perspective(100px) rotateX(5deg);
+  transform-origin: 50% 100%;
+  position: absolute;
+  margin-left: -11em;
+  font-weight: bold;
+  overflow: hidden;
+  font-size: 2.5rem;
+  height: 50em;
+  width: 30em;
+  bottom: 0;
+  left: 50%;
+}
+
+#board:after {    
+  position: absolute;
+  content: ' ';
+  bottom: 60%;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+/* Set the scrolling animation and position it */
+#content {
+  animation: scroll 100s linear 16s;
+  position: absolute;
+  top: 100%;
+}
+
+#title, #subtitle {
+  text-align: center;
+}
+
+@keyframes scroll {
+    0% {
+        top: 100%;
+    }
+    100% {
+        top: -170%;
+    }
+}
